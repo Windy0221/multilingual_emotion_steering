@@ -1,0 +1,29 @@
+model: Qwen/Qwen3-8B
+method: meandiff
+prompt_templates_path: configs/prompts/templates.yaml
+few_shot_examples_path: configs/prompts/few_shot_examples.jsonl
+prompt:
+  instruction_language: target
+  examples_language: target
+  num_examples: 3
+source_language: eng
+target_emotion: joy
+vector_path: outputs/vectors/Qwen_Qwen3-8B/qwen3_8b_seed42/meandiff/eng/joy
+layers: [16]
+hook_locations: [7]
+coefficient: 1.0
+intervention: add
+normalize: true
+renormalize: false
+stage: both
+chat_template:
+  enable_thinking: false
+tokenization:
+  add_special_tokens: false
+torch_dtype: bfloat16
+device: auto
+generation:
+  max_new_tokens: 128
+  do_sample: false
+input_path: data/evaluation/eval.jsonl
+output_path: outputs/generations/cross_language.jsonl

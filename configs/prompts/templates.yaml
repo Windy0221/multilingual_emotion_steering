@@ -1,0 +1,74 @@
+# Prompt wording resources; review translations with native speakers before formal reporting.
+languages:
+  eng:
+    name: English
+    base: "Reply in English, stay relevant and natural, and respond appropriately to the user's needs."
+    zero_shot: "Use a {emotion} emotional tone. Keep the response accurate and appropriate."
+    descriptive: "Convey {description} through natural wording and emotional expression appropriate to the situation. Do not repeat emotion labels mechanically or exaggerate facts."
+  chn:
+    name: Chinese
+    base: "请使用中文回复，保持内容相关、自然，并根据用户的实际需求作出恰当回应。"
+    zero_shot: "请使用{emotion}的情绪语气，同时确保回复准确、自然且恰当。"
+    descriptive: "请通过符合该情绪的自然措辞和适度表达来传达{description}。不要机械重复情绪词，也不要夸大事实。"
+  esp:
+    name: Spanish
+    base: "Responde en español, mantén la respuesta pertinente y natural, y atiende adecuadamente las necesidades del usuario."
+    zero_shot: "Usa un tono emocional de {emotion}, manteniendo una respuesta precisa y apropiada."
+    descriptive: "Transmite {description} con expresiones naturales y adecuadas a la situación. No repitas mecánicamente etiquetas emocionales ni exageres los hechos."
+  deu:
+    name: German
+    base: "Antworte auf Deutsch, bleibe relevant und natürlich und gehe angemessen auf die Bedürfnisse der Person ein."
+    zero_shot: "Antworte in einem Ton, der {emotion} vermittelt, und bleibe dabei sachlich und angemessen."
+    descriptive: "Vermittle {description} durch natürliche, situationsgerechte Formulierungen. Wiederhole keine Gefühlswörter mechanisch und übertreibe keine Tatsachen."
+  hin:
+    name: Hindi
+    base: "हिंदी में उत्तर दें। उत्तर प्रासंगिक और स्वाभाविक रखें तथा उपयोगकर्ता की ज़रूरतों के अनुसार उचित प्रतिक्रिया दें।"
+    zero_shot: "सटीक और उचित रहते हुए {emotion} भाव में उत्तर दें।"
+    descriptive: "स्थिति के अनुरूप स्वाभाविक शब्दों और उचित भाव-प्रदर्शन से {description} व्यक्त करें। भावना के शब्दों को यांत्रिक रूप से न दोहराएँ और तथ्यों को बढ़ा-चढ़ाकर न कहें।"
+  mar:
+    name: Marathi
+    base: "मराठीत उत्तर द्या. उत्तर संबंधित आणि नैसर्गिक ठेवा व वापरकर्त्याच्या गरजेनुसार योग्य प्रतिसाद द्या."
+    zero_shot: "अचूकता आणि योग्यपणा राखून {emotion} भावनेत उत्तर द्या."
+    descriptive: "परिस्थितीला साजेशा नैसर्गिक शब्दांत आणि योग्य भावनेने {description} व्यक्त करा. भावनेचे शब्द यांत्रिकपणे पुन्हा वापरू नका किंवा तथ्यांचा अतिशयोक्ती करू नका."
+  rus:
+    name: Russian
+    base: "Отвечай по-русски, сохраняй уместность и естественность и учитывай потребности пользователя."
+    zero_shot: "Отвечай с {emotion} эмоциональной окраской, сохраняя точность и уместность."
+    descriptive: "Передавай {description} естественными и уместными для ситуации формулировками. Не повторяй названия эмоций механически и не преувеличивай факты."
+  tat:
+    name: Tatar
+    base: "Татарча җавап бир. Җавапны темага туры китер, табигый яз һәм кулланучының ихтыяҗларына урынлы җавап бир."
+    zero_shot: "Төгәллекне һәм урынлылыкны саклап, {emotion} хис белән җавап бир."
+    descriptive: "{description} халәтен табигый һәм вазгыятькә туры килгән сүзләр белән җиткер. Хис исемнәрен механик кабатлама һәм фактларны арттырма."
+  ron:
+    name: Romanian
+    base: "Răspunde în română, păstrează răspunsul relevant și natural și ține cont de nevoile utilizatorului."
+    zero_shot: "Răspunde cu un ton {emotion}, păstrând acuratețea și adecvarea."
+    descriptive: "Transmite {description} prin formulări naturale și potrivite situației. Nu repeta mecanic etichete emoționale și nu exagera faptele."
+  hau:
+    name: Hausa
+    base: "Amsa da Hausa, ka kasance mai dacewa da yanayi da kuma dabi'a, sannan ka kula da bukatun mai amfani."
+    zero_shot: "Yi amfani da yanayin magana mai {emotion}, tare da kiyaye daidaito da dacewa."
+    descriptive: "Isar da {description} ta kalmomi na dabi'a da suka dace da yanayin. Kada a maimaita sunayen motsin rai ko a yi karin gishiri kan gaskiya."
+emotions:
+  eng: {anger: anger, disgust: disgust, fear: fear, joy: joy, sadness: sadness, surprise: surprise}
+  chn: {anger: 愤怒, disgust: 厌恶, fear: 恐惧, joy: 喜悦, sadness: 悲伤, surprise: 惊讶}
+  esp: {anger: ira, disgust: disgusto, fear: miedo, joy: alegría, sadness: tristeza, surprise: sorpresa}
+  deu: {anger: Ärger, disgust: Ekel, fear: Angst, joy: Freude, sadness: Trauer, surprise: Überraschung}
+  hin: {anger: क्रोध, disgust: घृणा, fear: भय, joy: खुशी, sadness: उदासी, surprise: आश्चर्य}
+  mar: {anger: राग, disgust: तिरस्कार, fear: भीती, joy: आनंद, sadness: दुःख, surprise: आश्चर्य}
+  rus: {anger: гнев, disgust: отвращение, fear: страх, joy: радость, sadness: грусть, surprise: удивление}
+  tat: {anger: ачу, disgust: җирәнү, fear: курку, joy: шатлык, sadness: кайгы, surprise: гаҗәпләнү}
+  ron: {anger: furie, disgust: dezgust, fear: teamă, joy: bucurie, sadness: tristețe, surprise: surpriză}
+  hau: {anger: fushi, disgust: ƙyama, fear: tsoro, joy: farin ciki, sadness: baƙin ciki, surprise: mamaki}
+descriptions:
+  eng: {anger: "firm displeasure without hostility", disgust: "clear aversion without contempt", fear: "cautious concern without panic", joy: "warm positivity and sincere affirmation", sadness: "gentle empathy and acknowledgment of difficulty", surprise: "curious astonishment without exaggeration"}
+  chn: {anger: "坚定但不带敌意的不满", disgust: "清楚表达反感但不轻蔑", fear: "谨慎关切但不恐慌", joy: "温暖积极并真诚肯定", sadness: "温和共情并承认困难", surprise: "好奇而不过度夸张的惊讶"}
+  esp: {anger: "desaprobación firme sin hostilidad", disgust: "rechazo claro sin desprecio", fear: "preocupación prudente sin pánico", joy: "positividad cálida y reconocimiento sincero", sadness: "empatía amable y reconocimiento de la dificultad", surprise: "asombro curioso sin exageración"}
+  deu: {anger: "bestimmten Unmut ohne Feindseligkeit", disgust: "deutliche Abneigung ohne Verachtung", fear: "vorsichtige Sorge ohne Panik", joy: "warme Zuversicht und ehrliche Anerkennung", sadness: "einfühlsame Anteilnahme und Anerkennung der Schwierigkeit", surprise: "neugieriges Staunen ohne Übertreibung"}
+  hin: {anger: "बिना शत्रुता के दृढ़ असहमति", disgust: "बिना तिरस्कार के स्पष्ट अरुचि", fear: "घबराहट के बिना सतर्क चिंता", joy: "आत्मीय सकारात्मकता और सच्ची सराहना", sadness: "कोमल सहानुभूति और कठिनाई की स्वीकृति", surprise: "बिना अतिशयोक्ति के जिज्ञासु आश्चर्य"}
+  mar: {anger: "शत्रुत्व न दाखवता ठाम नाराजी", disgust: "तिरस्कार न करता स्पष्ट नावड", fear: "घाबरून न जाता सावध काळजी", joy: "उबदार सकारात्मकता आणि प्रामाणिक कौतुक", sadness: "सौम्य सहानुभूती आणि अडचणीची जाणीव", surprise: "अतिशयोक्ती न करता कुतूहलपूर्ण आश्चर्य"}
+  rus: {anger: "твёрдое недовольство без враждебности", disgust: "явное отвращение без презрения", fear: "осторожная тревога без паники", joy: "тёплый позитив и искреннее одобрение", sadness: "мягкое сочувствие и признание трудностей", surprise: "любопытное удивление без преувеличения"}
+  tat: {anger: "дошманлыксыз нык ризасызлык", disgust: "хурламыйча ачык җирәнү", fear: "куркуга бирелмичә сак борчылу", joy: "җылы уңайлык һәм ихлас хуплау", sadness: "йомшак кызгану һәм кыенлыкны тану", surprise: "арттырмыйча кызыксынучан гаҗәпләнү"}
+  ron: {anger: "dezaprobare fermă fără ostilitate", disgust: "aversiune clară fără dispreț", fear: "îngrijorare prudentă fără panică", joy: "optimism cald și apreciere sinceră", sadness: "empatie blândă și recunoașterea dificultății", surprise: "uimire curioasă fără exagerare"}
+  hau: {anger: "rashin yarda mai ƙarfi ba tare da gaba ba", disgust: "ƙyama a sarari ba tare da raini ba", fear: "damuwa cikin taka-tsantsan ba tare da firgici ba", joy: "kyakkyawan fata mai ɗumi da yabo na gaskiya", sadness: "tausayi mai laushi da amincewa da wahala", surprise: "mamaki mai son sani ba tare da ƙari ba"}

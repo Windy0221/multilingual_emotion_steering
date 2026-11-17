@@ -1,0 +1,19 @@
+# Edit the languages, emotions and candidate steering settings after preparing eval.jsonl.
+base_config: configs/steering.yaml
+input_path: data/evaluation/eval.jsonl
+output_dir: outputs/generations/matrix
+vector_root: outputs/vectors
+vector_run_id: qwen3_8b_seed42
+comparison_id: pilot-v1
+evaluation_seed: 42
+generation_seed: 42
+target_languages: [chn]
+target_emotions: [joy]
+methods: [zero_shot, descriptive, meandiff, probe]
+vector_source_languages: [eng, chn]
+layers: [[16]]
+coefficients: [1.0]
+normalize: true
+generation:
+  max_new_tokens: 128
+  do_sample: false

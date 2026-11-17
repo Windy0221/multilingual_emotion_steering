@@ -1,0 +1,14 @@
+# Core runtime pinned to the currently validated custom Qwen3/Llama model baseline.
+torch==2.8.0
+transformers==4.56.1
+transformer_lens==2.16.1
+huggingface_hub==0.34.0
+accelerate==1.10.0
+numpy==1.26.4
+pandas==2.2.3
+pyarrow
+scikit_learn==1.6.1
+matplotlib==3.10.1
+PyYAML
+protobuf==6.30.2
+tqdm==4.67.1

@@ -1,0 +1,16 @@
+model: Qwen/Qwen3-8B
+device: auto
+run_id: qwen3_8b_seed42
+data_root: data/processed/brighter
+languages: [eng, mar, hin, rus, esp, tat, ron, hau, deu, chn]
+emotions: [anger, disgust, fear, joy, sadness, surprise]
+methods: [meandiff, probe]
+chat_template:
+  enable_thinking: false
+tokenization:
+  add_special_tokens: false
+torch_dtype: bfloat16
+batch_size: 1
+validation_fraction: 0.2
+seed: 42
+output_dir: outputs/vectors

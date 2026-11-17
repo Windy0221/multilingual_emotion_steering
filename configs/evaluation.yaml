@@ -1,0 +1,11 @@
+task: generation
+input_path: outputs/generations/
+output_dir: outputs/evaluations/
+evaluator:
+  type: llm
+  provider: openai
+  model: null
+  temperature: 0
+aggregation:
+  compare_with_baseline: true
+  baseline_method: none

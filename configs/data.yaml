@@ -1,0 +1,8 @@
+source_dir: data/raw/brighter
+output_dir: data/processed/brighter
+languages: [eng, mar, hin, rus, esp, tat, ron, hau, deu, chn]
+emotions: [anger, disgust, fear, joy, sadness, surprise]
+sampling:
+  mode: balanced
+  per_class: 50
+  seed: 42

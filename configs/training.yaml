@@ -1,0 +1,7 @@
+method: sft
+model: Qwen/Qwen3-8B
+data_path: data/evaluation/sft_train.jsonl
+output_dir: outputs/checkpoints/sft_qwen3_8b
+epochs: 1
+batch_size: 1
+learning_rate: 0.00002

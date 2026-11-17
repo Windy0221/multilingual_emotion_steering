@@ -1,0 +1,602 @@
+[
+  {
+    "language": "eng",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 333,
+    "negative_available": 2431,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "eng",
+    "emotion": "disgust",
+    "available": false,
+    "reason": "no_valid_binary_labels",
+    "positive_available": 0,
+    "negative_available": 0,
+    "positive_selected": 0,
+    "negative_selected": 0
+  },
+  {
+    "language": "eng",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 1610,
+    "negative_available": 1154,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "eng",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 674,
+    "negative_available": 2090,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "eng",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 876,
+    "negative_available": 1888,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "eng",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 839,
+    "negative_available": 1925,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 492,
+    "negative_available": 1504,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 654,
+    "negative_available": 1342,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 317,
+    "negative_available": 1679,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 642,
+    "negative_available": 1354,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 309,
+    "negative_available": 1687,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "esp",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 421,
+    "negative_available": 1575,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 350,
+    "negative_available": 2065,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 299,
+    "negative_available": 2116,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 382,
+    "negative_available": 2033,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 461,
+    "negative_available": 1954,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 431,
+    "negative_available": 1984,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "mar",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 311,
+    "negative_available": 2104,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "tat",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 137,
+    "negative_available": 863,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "tat",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 108,
+    "negative_available": 892,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "tat",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 48,
+    "negative_available": 952,
+    "positive_selected": 48,
+    "negative_selected": 48
+  },
+  {
+    "language": "tat",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 182,
+    "negative_available": 818,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "tat",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 214,
+    "negative_available": 786,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "tat",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 126,
+    "negative_available": 874,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 422,
+    "negative_available": 2134,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 265,
+    "negative_available": 2291,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 380,
+    "negative_available": 2176,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 442,
+    "negative_available": 2114,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 449,
+    "negative_available": 2107,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hin",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 278,
+    "negative_available": 2278,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 210,
+    "negative_available": 1031,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 297,
+    "negative_available": 944,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 405,
+    "negative_available": 836,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 462,
+    "negative_available": 779,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 379,
+    "negative_available": 862,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "ron",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 457,
+    "negative_available": 784,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 543,
+    "negative_available": 2136,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 273,
+    "negative_available": 2406,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 328,
+    "negative_available": 2351,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 555,
+    "negative_available": 2124,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 421,
+    "negative_available": 2258,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "rus",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 355,
+    "negative_available": 2324,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 408,
+    "negative_available": 1737,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 329,
+    "negative_available": 1816,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 327,
+    "negative_available": 1818,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 320,
+    "negative_available": 1825,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 647,
+    "negative_available": 1498,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "hau",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 349,
+    "negative_available": 1796,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 768,
+    "negative_available": 1835,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 832,
+    "negative_available": 1771,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 239,
+    "negative_available": 2364,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 541,
+    "negative_available": 2062,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 516,
+    "negative_available": 2087,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "deu",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 159,
+    "negative_available": 2444,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "anger",
+    "available": true,
+    "reason": null,
+    "positive_available": 1178,
+    "negative_available": 1464,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "disgust",
+    "available": true,
+    "reason": null,
+    "positive_available": 403,
+    "negative_available": 2239,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "fear",
+    "available": true,
+    "reason": null,
+    "positive_available": 71,
+    "negative_available": 2571,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "joy",
+    "available": true,
+    "reason": null,
+    "positive_available": 529,
+    "negative_available": 2113,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "sadness",
+    "available": true,
+    "reason": null,
+    "positive_available": 354,
+    "negative_available": 2288,
+    "positive_selected": 50,
+    "negative_selected": 50
+  },
+  {
+    "language": "chn",
+    "emotion": "surprise",
+    "available": true,
+    "reason": null,
+    "positive_available": 178,
+    "negative_available": 2464,
+    "positive_selected": 50,
+    "negative_selected": 50
+  }
+]

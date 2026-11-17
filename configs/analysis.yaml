@@ -1,0 +1,7 @@
+vector_root: outputs/vectors/Qwen_Qwen3-8B/qwen3_8b_seed42
+model: Qwen/Qwen3-8B
+output_dir: outputs/analysis/Qwen_Qwen3-8B
+emotions: [joy, anger]
+methods: [meandiff, probe]
+layers: [16]
+reference_language: eng
